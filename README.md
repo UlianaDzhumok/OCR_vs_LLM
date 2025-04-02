@@ -49,11 +49,13 @@ GOOGLE_API_KEY = user_secrets.get_secret("GOOGLE_API_KEY")
 
 ### Model Configuration
 
-The project uses the following models:
+The project uses the following LLM models:
 - **OpenAI GPT-4o** for OCR via GPT-4 with vision support.
 - **Anthropic Claude 3.7** for OCR using the Claude Sonnet API.
 - **Google Gemini 2.0 Flash** for OCR using Google's Gemini Flash model.
 - **Deepseek Janus Pro** for OCR locally using the Janus model.
+
+And polular OCR models:
 - **Tesseract OCR** - An open-source OCR engine developed by Google, widely used for recognizing printed text in images.
 - **EasyOCR** - A lightweight OCR library that supports multiple languages, including Russian, and leverages deep learning for text recognition.
 - **PaddleOCR** - A deep learning-based OCR model from PaddlePaddle that supports over 80 languages, offering high accuracy for text extraction.
@@ -121,7 +123,7 @@ plot_best_worst_examples(df_cer)
 4. Visualize the best and worst OCR results.
 
 
-## Models
+## LLM Models
 
 ### OpenAI GPT-4o
 
@@ -138,6 +140,8 @@ plot_best_worst_examples(df_cer)
 ### Deepseek Janus Pro
 
 - Janus Pro is a multimodal model capable of processing images and answering questions related to the content of the images, such as text extraction.
+
+## OCR Models
 
 ### Tesseract OCR
 - [Tesseract](https://github.com/tesseract-ocr/tesseract) is a popular OCR engine that was used for recognizing Cyrillic text. The code to use Tesseract is as follows:
