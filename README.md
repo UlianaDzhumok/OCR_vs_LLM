@@ -170,22 +170,27 @@ The evaluation results are stored in a CSV file, which contains the following co
 
 **Images where the majority of models made mistakes**:
 These images contained challenging conditions for OCR: blurred characters, low contrast, compression artifacts.
-[ЦЮРИХА](images/image_8_1.jpg)
+
+![ЦЮРИХА](images/image_8_1.jpg)
 
 **Images that all models recognized without errors**:
 Good contrast, clear font, and the absence of interference made the text understandable for all models.
-[КУКУРУЗНОЕ](images/image_8_40.jpg)
+
+![КУКУРУЗНОЕ](images/image_8_40.jpg)
 
 **Images where LLMs outperformed OCR**:
 LLMs, especially GPT-4o and Gemini 2.0 Flash, were able to handle texts where OCR made mistakes, such as:
 GPT-4o - "ВСПЫХИВАЛИ" (0% CER)
 EasyOCR - "ВСПЫХИБАЛИ" (10% CER)
-[ВСПЫХИВАЛИ](images/image_8_34.jpg)
+
+![ВСПЫХИВАЛИ](images/image_8_34.jpg)
 
 Here you can see CER counts for every model:
-[Comparison of CER](images/output (2).png)
+
+![Comparison of CER](images/output (2).png)
 And percentage of 0 error across models:
-[Comparison of CER](images/output (5).png)
+
+![Comparison of CER](images/output (5).png)
 
 ## License
 
