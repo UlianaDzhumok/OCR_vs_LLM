@@ -140,16 +140,16 @@ plot_best_worst_examples(df_cer)
 - Janus Pro is a multimodal model capable of processing images and answering questions related to the content of the images, such as text extraction.
 
 ### Tesseract OCR
-- Tesseract is a popular OCR engine that was used for recognizing Cyrillic text. The code to use Tesseract is as follows:
+- [Tesseract](https://github.com/tesseract-ocr/tesseract) is a popular OCR engine that was used for recognizing Cyrillic text. The code to use Tesseract is as follows:
 
 ### EasyOCR
-- EasyOCR is another OCR library that supports various languages, including Russian. The function for using EasyOCR is:
+- [EasyOCR](https://github.com/JaidedAI/EasyOCR) is another OCR library that supports various languages, including Russian. The function for using EasyOCR is:
 
 ### PaddleOCR
-- PaddleOCR is a deep learning-based OCR model that supports over 80 languages, including Russian. The PaddleOCR function used is:
+- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) is a deep learning-based OCR model that supports over 80 languages, including Russian. The PaddleOCR function used is:
 
 ### Surya OCR
-- Surya OCR leverages advanced techniques for text recognition. Here’s the code to use SuryaOCR:
+- [Surya OCR](https://github.com/VikParuchuri/surya) leverages advanced techniques for text recognition. Here’s the code to use SuryaOCR:
 
 ## Evaluation
 
