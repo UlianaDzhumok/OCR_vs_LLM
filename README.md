@@ -187,10 +187,10 @@ EasyOCR - "ВСПЫХИБАЛИ" (10% CER)
 
 Here you can see CER counts for every model:
 
-![Comparison of CER](images/output (2).png)
+![Comparison of CER](images/cer.png)
 And percentage of 0 error across models:
 
-![Comparison of CER](images/output (5).png)
+![Comparison of CER](images/zero_cer.png)
 
 ## License
 
